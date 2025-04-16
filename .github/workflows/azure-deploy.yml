@@ -13,7 +13,7 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v3
 
-      # Step 2: Set up Python 
+      # Step 2: Set up Python (since your app is in Python)
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
@@ -27,8 +27,8 @@ jobs:
 
       # Step 4: Deploy to Azure Function App (Dev Slot)
       - name: Deploy to Azure Function App (Dev Slot)
-        uses: Azure/functions-action@v1
+        uses: azure/webapps-deploy@v2
         with:
           app-name: 'devdocgenv2'  
-          slot-name: 'devdocgenv2-dev'  
+          slot-name: 'devdocgenv2-dev' 
           publish-profile: ${{ secrets.AZURE_FUNCTIONAPP_PUBLISH_PROFILE_DEV }}
