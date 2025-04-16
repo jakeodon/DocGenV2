@@ -1,34 +1,35 @@
-name: Deploy Python Function App to Azure
+name: Deploy to Azure Function App (Dev Slot)
+
 on:
   push:
     branches:
-      - main
-  workflow_dispatch:
-
-env:
-  AZURE_FUNCTIONAPP_NAME: 'DevDocGenV2' 
-  PYTHON_VERSION: '3.11'  
+      - main  
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v3
+      # Step 1: Checkout the code
+      - name: Checkout Code
+        uses: actions/checkout@v3
 
-    - name: Setup Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: ${{ env.PYTHON_VERSION }}
+      # Step 2: Set up Python 
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'  
 
-    - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install -r requirements.txt
+      # Step 3: Install dependencies
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
 
-    - name: Deploy to Azure Functions
-      uses: Azure/functions-action@v1
-      with:
-        app-name: ${{ env.AZURE_FUNCTIONAPP_NAME }}
-        package: '.'
-        publish-profile: ${{ secrets.AZURE_FUNCTIONAPP_PUBLISH_PROFILE }}
+      # Step 4: Deploy to Azure Function App (Dev Slot)
+      - name: Deploy to Azure Function App (Dev Slot)
+        uses: Azure/functions-action@v1
+        with:
+          app-name: 'devdocgenv2'  # The name of your Function App
+          slot-name: 'devdocgenv2-dev'  # The name of the slot
+          publish-profile: ${{ secrets.AZURE_FUNCTIONAPP_PUBLISH_PROFILE_DEV }}
