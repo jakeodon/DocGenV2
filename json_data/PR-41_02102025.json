@@ -1,0 +1,758 @@
+{
+    "OutputFileName": "test1.pdf",
+    "Forms": [
+        {
+            "Type": "complex",
+            "FormID": "PR-41 Dummy Document"
+        }
+    ],
+    "FormValues": {
+        "Forms": [
+            {
+                "FormID": "Test form 1",
+                "Type": "Static",
+                "FormName": "First test form"
+            },
+            {
+                "FormID": "Test form 2",
+                "Type": "Complex",
+                "FormName": "Second Test Form"
+            },
+            {
+                "FormID": "Test Form 3",
+                "Type": "Static",
+                "FormName": "Third Test form"
+            }
+        ],
+        "PolicyID": "CEBRP-24-1114455-00",
+        "ProductID": "PR-41",
+        "PolicyEffectiveDate": "2024-06-05",
+        "PolicyExpirationDate": "2025-06-05",
+        "IssuedDate": "20240501",
+        "NameInsured": "Brandt Test",
+        "DoingBusinessAs": "Test Doing Business As",
+        "NamedInsuredAddress": {
+            "ID": "Test ID",
+            "MailingAddress1": "64 Half Moon Bend",
+            "MailingAddress2": "Unit 101",
+            "City": "Corronado",
+            "State": "CA",
+            "ZipCode": "92108"
+        },
+        "PrimaryProject": {
+            "GeneralContractor": "Brandt Davis",
+            "GeneralContractorWebsite": "https://Johnwayne.com",
+            "ProjectDescription": "This project is to build a new stadium for the Los Angeles Angels",
+            "ProjectAddress": {
+                "AddressLine1": "2000 E Gene Autry Way",
+                "City": "Anaheim",
+                "CountyName": "Orange",
+                "State": "CA",
+                "ZipCode": "92806"
+            }
+        },
+        "ProducerAgent": {
+            "Agent": "Arturo Gonzalez",
+            "AgentCode": "PSIC-5925-1-1",
+            "PhoneNumber": "1234567890",
+            "EmailAddress": "test@test.com",
+            "DRCagentCode": "11111586",
+            "ProducerName": "Royal Agency",
+            "MailingAddress": {
+                "AddressLine1": "2000 E Gene Autry Way",
+                "AddressLine2": "",
+                "City": "Anaheim",
+                "State": "CA",
+                "ZipCode": "92806"
+            },
+            "Commission": "17.5"
+        },
+        "PolicyState": "CA",
+        "PolicyCounty": "Orange",
+        "Underwriter": "Brandt",
+        "TIV": "4000",
+        "TIVOverride": "250000",
+        "PurePremium": "100,000.00",
+        "TerrorismPremium": "5,000.00",
+        "PolicyPremium": "105,000.00",
+        "TotalFee": "100",
+        "TotalPayable": "105,100.00",
+		"TotalCommissionValue": "175,564.36",
+		"MinEPApplies": "true",
+		"MinEPRate": "3",
+        "DelayInCompletion": "2000",
+        "CombinedCatastropheLimit": "4000",
+		"WaitingPeriodInDays": "3",
+		"ProtectiveDevices": "Test Protective Devices",
+        "BillingMethod": "AgencyBill",
+        "BillingFrequency": "test text",
+        "PaymentSchedule": [
+            {
+                "AmountDue": "1075.0",
+                "Description": "Downpayment",
+                "DueDate": "20240418",
+                "InstallmentDue": "$1,075.00",
+                "InstallmentDueDate": "2024-08-14",
+                "InstallmentFee": "0.0"
+            }
+        ],
+        "SurplusPayor": "Other",
+        "SurplusBroker": {
+            "Name": "test name",
+            "AddressLine1": "123 test",
+            "AddressLine2": "Test Unit",
+            "City": "City",
+            "State": "WA",
+            "ZipCode": "12345",
+            "LicenseNumber": "A654321",
+            "LicenseExpiration": "12/31/2024"
+        },
+        "AdditionalEndorsements": [
+            {
+                "EndorsementName": "Existing Building Coverage"
+            },
+            {
+                "EndorsementName": "Building Materials Coverage"
+            },
+            {
+                "EndorsementName": "Limited Theft Coverage"
+            },
+            {
+                "EndorsementName": "Permission to Occupy"
+            },
+            {
+                "EndorsementName": "Interior Water Damage Limitation"
+            },
+            {
+                "EndorsementName": "Earthquake Coverage"
+            },
+            {
+                "EndorsementName": "Earth Movement Coverage"
+            }
+        ],
+        "AdditionalInsureds": [
+            {
+                "Name": "Test Insured",
+                "EmailAddress": "testinsured@test.com",
+                "PhoneNumber": "3216549870"
+            },
+            {
+                "Name": "Second Test Insured",
+                "EmailAddress": "testtest@test.com",
+                "PhoneNumber": "3214569870"
+            }
+        ],
+        "Coverages": [
+            {
+                "Group": "N/A",
+				"Name": "Wind/Hail",
+                "Limit": "700,000.00",
+				"LimitType": "N/A",
+				"Text": "Covered",
+                "DeductibleType": "Percent",
+                "Deductible": "2",
+                "DeductibleMin": "2,500.00"
+            },
+            {
+                "Group": "N/A",
+				"Name": "Earthquake",
+                "Limit": "55,410.00",
+				"LimitType": "N/A",
+				"Text": "Covered",
+                "DeductibleType": "Flat",
+                "Deductible": "2,500.00",
+                "DeductibleMin": "N/A"
+            },
+            {
+                "Group": "N/A",
+				"Name": "Flood",
+                "Limit": "123,456.78",
+				"LimitType": "N/A",
+				"Text": "Covered",
+                "DeductibleType": "Percent",
+                "Deductible": "5",
+                "DeductibleMin": "5,000.00"
+            },
+	            {
+                "Group": "N/A",
+				"Name": "Named Storm",
+                "Limit": "N/A",
+				"LimitType": "N/A",
+				"Text": "Covered",
+                "DeductibleType": "Percent",
+                "Deductible": "2",
+                "DeductibleMin": "5,000.00"
+            },
+            {
+                "Group": "N/A",
+				"Name": "Theft",
+                "Limit": "7,000.00",
+				"LimitType": "N/A",
+				"Text": "Covered",
+                "DeductibleType": "Flat",
+                "Deductible": "2,500.00",
+                "DeductibleMin": "N/A"
+            },
+			{
+                "Group": "N/A",
+				"Name": "AOP",
+                "Limit": "700,000.00",
+				"LimitType": "N/A",
+				"Text": "Covered",
+                "DeductibleType": "Flat",
+                "Deductible": "2,500.00",
+                "DeductibleMin": "N/A"
+            },
+			{
+                "Group": "N/A",
+				"Name": "Address Limit",
+                "Limit": "1,000,000.00",
+				"LimitType": "N/A",
+				"Text": "Covered",
+                "DeductibleType": "N/A",
+                "Deductible": "N/A",
+                "DeductibleMin": "N/A"
+            },
+			{
+                "Group": "N/A",
+				"Name": "Existing Structure",
+                "Limit": "5,000,000.00",
+				"LimitType": "N/A",
+				"Text": "Covered",
+                "DeductibleType": "Flat",
+                "Deductible": "5,000.00",
+                "DeductibleMin": "N/A"
+            },
+			{
+                "Group": "N/A",
+				"Name": "Interior Water Damage",
+                "Limit": "5,000.00",
+				"LimitType": "N/A",
+				"Text": "Covered",
+                "DeductibleType": "N/A",
+                "Deductible": "10,000.00",
+                "DeductibleMin": "N/A"
+            },
+			{
+                "Group": "N/A",
+				"Name": "Equip. Breakdown Limit",
+                "Limit": "15,000.00",
+				"LimitType": "N/A",
+				"Text": "Covered",
+                "DeductibleType": "N/A",
+                "Deductible": "N/A",
+                "DeductibleMin": "N/A"
+            },
+			{
+                "Group": "N/A",
+				"Name": "Catastrophe Limit",
+                "Limit": "8,675,309.00",
+				"LimitType": "N/A",
+				"Text": "Covered",
+                "DeductibleType": "N/A",
+                "Deductible": "N/A",
+                "DeductibleMin": "N/A"
+            },
+			{
+                "Group": "Coverage Extensions",
+				"Name": "Debris Removal",
+                "Limit": "25",
+				"LimitType": "N/A",
+				"Text": "Covered",
+                "DeductibleType": "N/A",
+                "Deductible": "N/A",
+                "DeductibleMin": "N/A"
+            },		
+			{
+                "Group": "Coverage Extensions",
+				"Name": "Additional Debris Removal",
+                "Limit": "5,000.00",
+				"LimitType": "N/A",
+				"Text": "Covered",
+                "DeductibleType": "N/A",
+                "Deductible": "N/A",
+                "DeductibleMin": "N/A"
+            },	
+		  {
+                "Group": "Coverage Extensions",
+				"Name": "Emergency Removal",
+                "Limit": "N/A",
+				"LimitType": "N/A",
+				"Text": "10 days",
+                "DeductibleType": "N/A",
+                "Deductible": "N/A",
+                "DeductibleMin": "N/A"
+            },	
+			{
+                "Group": "Coverage Extensions",
+				"Name": "Emergency Removal Expenses",
+                "Limit": "10,000.00",
+				"LimitType": "N/A",
+				"Text": "Covered",
+                "DeductibleType": "N/A",
+                "Deductible": "N/A",
+                "DeductibleMin": "N/A"
+            },
+			{
+                "Group": "Coverage Extensions",
+				"Name": "Fraud and Deceit",
+                "Limit": "50,000.00",
+				"LimitType": "N/A",
+				"Text": "Covered",
+                "DeductibleType": "N/A",
+                "Deductible": "N/A",
+                "DeductibleMin": "N/A"
+            },
+			{
+                "Group": "Coverage Extensions",
+				"Name": "Limited Fungus Coverage",
+                "Limit": "20,000.00",
+				"LimitType": "N/A",
+				"Text": "Covered",
+                "DeductibleType": "N/A",
+                "Deductible": "N/A",
+                "DeductibleMin": "N/A"
+            },
+			{
+                "Group": "Coverage Extensions",
+				"Name": "Waterborne Property",
+                "Limit": "10,000.00",
+				"LimitType": "N/A",
+				"Text": "Covered",
+                "DeductibleType": "N/A",
+                "Deductible": "N/A",
+                "DeductibleMin": "N/A"
+            },
+			{
+                "Group": "Supplemental Coverages",
+				"Name": "Expediting Expenses",
+                "Limit": "10,000.00",
+				"LimitType": "N/A",
+				"Text": "Covered",
+                "DeductibleType": "N/A",
+                "Deductible": "N/A",
+                "DeductibleMin": "N/A"
+            },
+			{
+                "Group": "Supplemental Coverages",
+				"Name": "Expense to Re-Erect Scaffolding",
+                "Limit": "10,000.00",
+				"LimitType": "N/A",
+				"Text": "Covered",
+                "DeductibleType": "N/A",
+                "Deductible": "N/A",
+                "DeductibleMin": "N/A"
+            },
+			{
+                "Group": "Supplemental Coverages",
+				"Name": "Fire Department Service Charges",
+                "Limit": "10,000.00",
+				"LimitType": "N/A",
+				"Text": "Covered",
+                "DeductibleType": "N/A",
+                "Deductible": "N/A",
+                "DeductibleMin": "N/A"
+            },
+ 			{
+                "Group": "Supplemental Coverages",
+				"Name": "Ordinance or Law (Undamaged Parts of A Building)",
+                "Limit": "N/A",
+				"LimitType": "N/A",
+				"Text": "Covered",
+                "DeductibleType": "N/A",
+                "Deductible": "N/A",
+                "DeductibleMin": "N/A"
+            },
+			{
+                "Group": "Supplemental Coverages",
+				"Name": "Ordinance or Law (Increased Cost to Repair and Cost to Demo)",
+                "Limit": "50,000.00",
+				"LimitType": "N/A",
+				"Text": "Covered",
+                "DeductibleType": "N/A",
+                "Deductible": "N/A",
+                "DeductibleMin": "N/A"
+            },
+			{
+                "Group": "Supplemental Coverages",
+				"Name": "Personal Property",
+                "Limit": "10,000.00",
+				"LimitType": "N/A",
+				"Text": "Covered",
+                "DeductibleType": "N/A",
+                "Deductible": "N/A",
+                "DeductibleMin": "N/A"
+            },
+			{
+                "Group": "Supplemental Coverages",
+				"Name": "Pollutant Cleanup and Removal",
+                "Limit": "25,000.00",
+				"LimitType": "N/A",
+				"Text": "Covered",
+                "DeductibleType": "N/A",
+                "Deductible": "N/A",
+                "DeductibleMin": "N/A"
+            },
+			{
+                "Group": "Supplemental Coverages",
+				"Name": "Rewards",
+                "Limit": "1,000.00",
+				"LimitType": "N/A",
+				"Text": "Covered",
+                "DeductibleType": "N/A",
+                "Deductible": "N/A",
+                "DeductibleMin": "N/A"
+            },
+			{
+                "Group": "Supplemental Coverages",
+				"Name": "Sewer Backup",
+                "Limit": "10,000.00",
+				"LimitType": "N/A",
+				"Text": "Covered",
+                "DeductibleType": "N/A",
+                "Deductible": "N/A",
+                "DeductibleMin": "N/A"
+            },
+			{
+                "Group": "Supplemental Coverages",
+				"Name": "Temporary Storage Locations",
+                "Limit": "10,000.00",
+				"LimitType": "N/A",
+				"Text": "Covered",
+                "DeductibleType": "N/A",
+                "Deductible": "N/A",
+                "DeductibleMin": "N/A"
+            },
+			{
+                "Group": "Supplemental Coverages",
+				"Name": "Transit",
+                "Limit": "10,000.00",
+				"LimitType": "N/A",
+				"Text": "Covered",
+                "DeductibleType": "N/A",
+                "Deductible": "N/A",
+                "DeductibleMin": "N/A"
+            },
+			{
+                "Group": "Supplemental Coverages",
+				"Name": "Trees, Shrubs, and Plants",
+                "Limit": "10,000.00",
+				"LimitType": "N/A",
+				"Text": "Covered",
+                "DeductibleType": "N/A",
+                "Deductible": "N/A",
+                "DeductibleMin": "N/A"
+            },
+			{
+                "Group": "Supplemental Coverages",
+				"Name": "Valuable Papers",
+                "Limit": "10,000.00",
+				"LimitType": "N/A",
+				"Text": "Covered",
+                "DeductibleType": "N/A",
+                "Deductible": "N/A",
+                "DeductibleMin": "N/A"
+            },
+			{
+                "Group": "Supplemental Coverages",
+				"Name": "Claims Prep Expense",
+                "Limit": "10,000.00",
+				"LimitType": "N/A",
+				"Text": "Covered",
+                "DeductibleType": "N/A",
+                "Deductible": "N/A",
+                "DeductibleMin": "N/A"
+            },	
+			{
+                "Group": "Supplemental Coverages",
+				"Name": "Additional Construction Expenses",
+                "Limit": "10,000.00",
+				"LimitType": "N/A",
+				"Text": "Covered",
+                "DeductibleType": "N/A",
+                "Deductible": "N/A",
+                "DeductibleMin": "N/A"
+            },	
+			{
+                "Group": "Supplemental Coverages",
+				"Name": "Additional Soft Costs",
+                "Limit": "1,500.00",
+				"LimitType": "Per Occurrence",
+				"Text": "Covered",
+                "DeductibleType": "N/A",
+                "Deductible": "N/A",
+                "DeductibleMin": "N/A"
+            },
+			         {
+                "DeductibleType": "N/A",
+                "Group": "SUPPLEMENTAL COVERAGES",
+                "Deductible": "N/A",
+                "Type": "30 Day",
+                "Text": "Covered",
+                "Limit": "4,440",
+                "Retention": "N/A",
+                "DeductibleMin": "0",
+                "Name": "Additional Soft Costs"
+            },
+			{
+                "Group": "Supplemental Coverages",
+				"Name": "Rental Income",
+                "Limit": "1,000.00",
+				"LimitType": "Per Occurrence",
+				"Text": "Covered",
+                "DeductibleType": "N/A",
+                "Deductible": "N/A",
+                "DeductibleMin": "N/A"
+            }				
+		],
+        "Exclusions": [
+            {
+                "ExclusionName": "Earthquake"
+            },
+            {
+                "ExclusionName": "Earthmovement"
+            },
+            {
+                "ExclusionName": "Flood"
+            },
+            {
+                "ExclusionName": "Wind/Hail"
+            },
+            {
+                "ExclusionName": "Named Storm"
+            },
+            {
+                "ExclusionName": "Theft"
+            },
+			{
+                "ExclusionName": "TRIA"
+            }
+        ],
+        "ExposureAndRiskFactors": [
+            {
+                "Name": "Type of Project",
+                "Factor": "Renovation Including Existing Structure",
+                "Type": "PA-Data-ET-Text"
+            },
+            {
+                "Name": "Construction Type",
+                "Factor": "Wood Frame",
+                "Type": "PA-Data-ET-Text"
+            },
+            {
+                "Name": "Contruction Already Started",
+                "Factor": "FALSE",
+                "Type": "PA-Data-ET-TrueFalse"
+            },
+            {
+                "Name": "What Percentage Complete",
+                "Factor": "50%",
+                "Type": "PA-Data-ET-Percentage"
+            },
+            {
+                "Name": "Occupancy Type",
+                "Factor": "Permanent dwelling (single family home)",
+                "Type": "PA-Data-ET-Text"
+            },
+            {
+                "Name": "Square Footage",
+                "Factor": "2890",
+                "Type": "PA-Data-ET-Decimal"
+            },
+            {
+                "Name": "Cost/sqft",
+                "Factor": "1030.103806",
+                "Type": "PA-Data-ET-Decimal"
+            },
+            {
+                "Name": "Line of Business",
+                "Factor": "Residential",
+                "Type": "PA-Data-ET-Text"
+            },
+            {
+                "Name": "New Work",
+                "Factor": "1,300,000.00",
+                "Type": "PA-Data-ET-Decimal"
+            },
+            {
+                "Name": "Existing Struture",
+                "Factor": "1,677,000.00",
+                "Type": "PA-Data-ET-Decimal"
+            },
+            {
+                "Name": "Construction Expense",
+                "Factor": "1551",
+                "Type": "PA-Data-ET-Decimal"
+            },
+            {
+                "Name": "Soft Costs",
+                "Factor": "1000",
+                "Type": "PA-Data-ET-Decimal"
+            },
+            {
+                "Name": "Rental Income",
+                "Factor": "1000",
+                "Type": "PA-Data-ET-Decimal"
+            },
+            {
+                "Name": "Number of Stories",
+                "Factor": "2",
+                "Type": "PA-Data-ET-Integer"
+            },
+            {
+                "Name": "Number of Buildings",
+                "Factor": "1",
+                "Type": "PA-Data-ET-Integer"
+            },
+            {
+                "Name": "Number of Units",
+                "Factor": "1",
+                "Type": "PA-Data-ET-Integer"
+            },
+            {
+                "Name": "Year Built",
+                "Factor": "1995",
+                "Type": "PA-Data-ET-Text"
+            },
+            {
+                "Name": "Protection Class",
+                "Factor": "3",
+                "Type": "PA-Data-ET-Text"
+            },
+            {
+                "Name": "Distance to Coast",
+                "Factor": "> 5 Miles",
+                "Type": "PA-Data-ET-Text"
+            },
+            {
+                "Name": "Wind AAL",
+                "Factor": "500",
+                "Type": "PA-Data-ET-Text"
+            },
+            {
+                "Name": "Wildfire Risk Score",
+                "Factor": "10",
+                "Type": "PA-Data-ET-Text"
+            },
+            {
+                "Name": "Flood Zone",
+                "Factor": "X",
+                "Type": "PA-Data-ET-Text"
+            },
+			 {
+                "Name": "Existing Structure Valuation",
+                "Factor": "Actual Cash Value",
+                "Type": "PA-Data-ET-Text"
+            }
+		],
+        "Fees": {
+            "PolicyFee": "50.00",
+            "InspectionFee": "50.00",
+            "ModelingFee": "0",
+            "CatFee": "0",
+            "RenewalFee": "0",
+            "EndorsementFee": "0",
+            "CancellationFee": "0",
+            "ReinstatementFee": "0"
+        },
+        "LossPayees": [
+            {
+                "Fullname": "First Loss Payee",
+                "FullAddress": "Payee Address Line 1 Ave, Queen Creek Az, 85140",
+                "LoanNumber": "123456"
+            },
+            {
+                "Fullname": "Second Loss Payee",
+                "FullAddress": "123 Test Address, San Diego, CA 92109",
+                "LoanNumber": "321654"
+            }
+        ],
+        "ParticipationLayers": [
+            {
+                "Type": "Shared",
+                "ParticipantName": "Super Lead Carrier",
+                "PolicyNumber": "CCBR-001-001",
+                "Percentage": "70",
+                "Limit": "6,000.00",
+                "AttachmentPoint": "3,200.00",
+                "LayerLimit": "5,000.00",
+                "IsLeadCarrier": "true"
+            },
+            {
+                "Type": "Shared",
+                "ParticipantName": "Palomar Excess and Surplus Insurance Company",
+                "PolicyNumber": "CCBR-002-001",
+                "Percentage": "20",
+                "Limit": "600,000.00",
+                "AttachmentPoint": "4,200.00",
+                "LayerLimit": "5,000.00",
+                "IsLeadCarrier": "false"
+            },
+            {
+                "Type": "Type2",
+                "ParticipantName": "Name 3",
+                "PolicyNumber": "CCBR-123-001",
+                "Percentage": "10",
+                "Limit": "100.00",
+                "AttachmentPoint": "4,200.00",
+                "LayerLimit": "5,000.00",
+                "IsLeadCarrier": "false"
+            },
+            {
+                "Type": "Type2",
+                "ParticipantName": "Name 4",
+                "PolicyNumber": "CCBR-100-001",
+                "Percentage": "5",
+                "Limit": "600,000.00",
+                "AttachmentPoint": "4,200.00",
+                "LayerLimit": "5,000.00",
+                "IsLeadCarrier": "false"
+            },
+            {
+                "Type": "Type2",
+                "ParticipantName": "Name 5",
+                "PolicyNumber": "CCBR-456-001",
+                "Percentage": "3",
+                "Limit": "600,000.00",
+                "AttachmentPoint": "4,200.00",
+                "LayerLimit": "5,000.00",
+                "IsLeadCarrier": "false"
+            }
+        ],
+        "SpecialProvisions": [
+            {
+                "SpecialProvision": "JohnWayne Provisions"
+            },
+            {
+                "SpecialProvision": "Arte Moreno Provisions"
+            }
+        ],
+        "Endorsement": {
+            "Number": "2",
+            "EffectiveDate": "06/21/2024",
+            "Type": "PremiumBearing",
+            "Premium": "500.00",
+            "Description": "Additional resources were added to the project"
+        },
+        "Cancellation": {
+            "EffectiveDate": "12/01/2024",
+			"Reason": "Non-Payment of Premium",
+            "OtherText": "",
+			"ReturnFees": "true",
+			"Fees": {
+				"PolicyFee": "50.00",
+				"InspectionFee": "50.00",
+				"ModelingFee": "0",
+				"CatFee": "0",
+				"CancellationFee": "0"
+				},	
+			"Type": "Flat",
+			"RetainMEP": "false",
+			"IsPremiumReturned": "true",
+			"ReturnPremium": "1,500.00"
+        },
+        "Reinstatement":{
+            "EffectiveDate": "12/01/2024"
+        }
+    }
+}

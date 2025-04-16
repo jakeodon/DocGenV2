@@ -1,0 +1,11 @@
+{
+    "name": {
+        "first": "Betty",
+        "last": "Doe"
+    },
+    "age": 60,
+    "address": {
+        "city": "Paducah",
+        "state": "KY"
+    }
+}
