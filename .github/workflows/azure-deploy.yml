@@ -26,10 +26,16 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      # Step 4: Deploy to Azure Function App (Dev Slot)
+      # Step 4: Login to Azure using Publish Profile
+      - name: Login to Azure
+        uses: azure/login@v1
+        with:
+          publish-profile: ${{ secrets.AZURE_FUNCTIONAPP_PUBLISH_PROFILE_DEV }}
+
+      # Step 5: Deploy to Azure Function App (Dev Slot)
       - name: Deploy to Azure Function App (Dev Slot)
         uses: Azure/functions-action@v1
         with:
-          app-name: 'devdocgenv2'  # The name of your Function App
-          slot-name: 'devdocgenv2-dev'  # The name of the slot
+          app-name: 'devdocgenv2'  
+          slot-name: 'devdocgenv2-dev'  
           publish-profile: ${{ secrets.AZURE_FUNCTIONAPP_PUBLISH_PROFILE_DEV }}
