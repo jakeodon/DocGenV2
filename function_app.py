@@ -20,7 +20,7 @@ account_id = os.getenv("AZURE_ACCOUNT_ID")
 
 app = func.FunctionApp()
 
-@app.function_name(name="ReplacePlaceholders")
+@app.function_name(name="replace")
 @app.route(route="replace", methods=["POST"])
 def replace_placeholders_function(req: func.HttpRequest) -> func.HttpResponse:
     """
@@ -123,7 +123,7 @@ def replace_placeholders_function(req: func.HttpRequest) -> func.HttpResponse:
             status_code=500,
         )
 
-@app.function_name(name="CombinePages")
+@app.function_name(name="combine-pages")
 @app.route(route="combine-pages", methods=["POST"])
 def combine_pages_function(req: func.HttpRequest) -> func.HttpResponse:
     """
